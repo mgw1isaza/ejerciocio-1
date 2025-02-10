@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: "rubik", sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 header{
     display: flex;
@@ -19,6 +24,9 @@ header{
     color: white;
     font-size: 30px;
     font-weight: bold;
+}
+.logo a:hover {
+    color: white;
 }
 
 .barranav {
@@ -80,6 +88,7 @@ header{
     color: white;
     font-size: 15px;
     border-radius: 5px;
+    padding: 10px;
 }
 .habilidades {
     display: flex;
@@ -87,6 +96,9 @@ header{
     justify-content: center;
     align-items: center;
     gap: 25px;
+}
+.habilidades div{
+    
 }
 .habilidad1 {
     display: flex;
@@ -97,6 +109,7 @@ header{
     padding: 20px;
     width: 280px; 
     height: 250px; 
+    background-color: #fff;
 }
 .habilidad2 {
     display: flex;
@@ -118,23 +131,69 @@ header{
     width: 280px; 
     height: 250px; 
 }
-.botobotonhabilidades a{
-    display: inline-block;
-    padding: 10px 20px;
-    color: white;
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botonhabilidades{
+    border-radius: 5px;
     background-color: #6078ea;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.botonhabilidades a{
+    margin: 70px;
+    padding: 10px 30px;
+    color: white;
     text-decoration: none;
     font-size: 18px;
+    border-radius: 5px;
+}
+.botonhabilidades:hover {
+    border-radius: 5px;
+    background-color: #17ead9;
 }
 .trabajos {
     display: flex;
     flex-direction: row;
 }
 .trabajosimg img{
-    height: 400px;
-    width: 700px;
+    height: 300px;
+    width: 600px;
 }
 .trabajostexto {
     display: flex;
     flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+}
+.trabajos2 {
+    display: flex;
+    flex-direction: row;
+}
+.trabajosimg2 img{
+    height: 300px;
+    width: 600px;
+}
+.trabajostexto2 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+}
+.trabajos3 {
+    display: flex;
+    flex-direction: row;
+}
+.trabajosimg3 img{
+    height: 300px;
+    width: 600px;
+}
+.trabajostexto3 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
 }
